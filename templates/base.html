@@ -2,9 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% endblock %}
+    {% block extrameta %}
+    {% endblock %}
     {% block corecss %}
 
     {% endblock %}
@@ -16,7 +20,7 @@
 
     {% block extrajs %}
     {% endblock %}
-    <title>Celtic Store</title>
+    <title>Celtic Store {% block extra_title %} {% endblock %}</title>
 </head>
 <body>
     <header class="container-fluid fixed-top"></header>
