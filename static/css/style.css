@@ -13,7 +13,7 @@ body {
 nav {
     background-color: #0EA667;
     color: white;
-    height: 100px;
+    min-height: 100px;
 }
 
 .hero-one {
