@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hero {
+    width: 100%;
+    height: 700px; /* Adjust based on your needs */
+    background-color: #0EA667;
+}
+
+nav {
+    background-color: #0EA667;
+    color: white;
+    height: 100px;
+}
+
+.hero-one {
+    background-image: url('../images/jota.jpg');
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    min-height: 700px; /* Adjust height as needed */
+}
+.hero-two {
+    background-image: url('../images/celticcap.webp');
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    min-height: 700px; /* Adjust height as needed */
+}
+
+.hero-three {
+    background-image: url('../images/celticteam.jpg');
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    min-height: 700px; /* Adjust height as needed */
+}
+
+@media screen and (max-width: 992px) {
+    .hero-three {
+        display: none;
+    }
+}
