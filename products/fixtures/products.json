@@ -1,0 +1,142 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "JER001",
+            "name": "Home Jersey 2024/25",
+            "description": "Official home jersey for the 2024/25 season.",
+            "price": "79.99",
+            "rating": "4.5",
+            "image_url": "https://example.com/images/jersey.jpg",
+            "season": "2024/25"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "TRK002",
+            "name": "Training Tracksuit",
+            "description": "Premium tracksuit for training sessions.",
+            "price": "99.99",
+            "rating": "4.7",
+            "image_url": "https://example.com/images/tracksuit.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "sku": "ACC003",
+            "name": "Sports Water Bottle",
+            "description": "Stay hydrated with this lightweight bottle.",
+            "price": "14.99",
+            "rating": "4.3",
+            "image_url": "https://example.com/images/bottle.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "sku": "DEA004",
+            "name": "Discounted Fan Scarf",
+            "description": "High-quality scarf at a discounted price.",
+            "price": "9.99",
+            "rating": "4.0",
+            "image_url": "https://example.com/images/scarf.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "sku": "ESS005",
+            "name": "Casual Sports T-Shirt",
+            "description": "Comfortable everyday wear.",
+            "price": "29.99",
+            "rating": "4.6",
+            "image_url": "https://example.com/images/tshirt.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "CLR006",
+            "name": "Clearance Hoodie",
+            "description": "Limited stock - grab your deal now!",
+            "price": "39.99",
+            "rating": "4.2",
+            "image_url": "https://example.com/images/hoodie.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "category": 7,
+            "sku": "NEW007",
+            "name": "Limited Edition Away Jersey",
+            "description": "Exclusive away jersey for the new season.",
+            "price": "89.99",
+            "rating": "4.8",
+            "image_url": "https://example.com/images/away_jersey.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "category": 8,
+            "sku": "COL008",
+            "name": "Special Collection Cap",
+            "description": "Part of the limited edition collections.",
+            "price": "24.99",
+            "rating": "4.5",
+            "image_url": "https://example.com/images/cap.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "category": 9,
+            "sku": "SOU009",
+            "name": "Team Keychain",
+            "description": "A perfect souvenir for football fans.",
+            "price": "5.99",
+            "rating": "4.1",
+            "image_url": "https://example.com/images/keychain.jpg",
+            "season": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "ENT010",
+            "name": "Team Poster",
+            "description": "High-quality poster for your wall.",
+            "price": "19.99",
+            "rating": "4.4",
+            "image_url": "https://example.com/images/poster.jpg",
+            "season": ""
+        }
+    }
+]
